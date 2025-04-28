@@ -1,0 +1,35 @@
+{
+  "bot_name": "Dog Pet Care Assistant",
+  "version": "1.0.0",
+  "settings": {
+    "typing_effect": true,
+    "typing_min_delay": 0.01,
+    "typing_max_delay": 0.05,
+    "colors_enabled": true,
+    "show_ascii_art": true
+  },
+  "features": {
+    "context_memory": {
+      "enabled": true,
+      "max_history": 10
+    },
+    "breed_specific_advice": {
+      "enabled": true
+    },
+    "emergency_prioritization": {
+      "enabled": true,
+      "keywords": [
+        "emergency",
+        "poison",
+        "ate",
+        "vomit",
+        "diarrhea",
+        "not eating",
+        "bleeding",
+        "blood",
+        "injury",
+        "hurt"
+      ]
+    }
+  }
+}
