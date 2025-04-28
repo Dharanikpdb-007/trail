@@ -1,0 +1,96 @@
+{
+  "general_responses": {
+    "greetings": [
+      "Hello! How can I help with your dog care questions today?",
+      "Hi there! Ready to talk about dog care?",
+      "Woof! I'm here to help with your dog care questions!",
+      "Hello! I'm your dog care assistant. What would you like to know?",
+      "Greetings! How can I assist with your canine companion today?"
+    ],
+    "farewells": [
+      "Take care of your furry friend! Goodbye!",
+      "Woof goodbye! Hope to help you again soon!",
+      "Have a great day with your dog!",
+      "Goodbye! Remember to give your dog lots of love!",
+      "Until next time! Happy dog parenting!"
+    ],
+    "fallbacks": [
+      "I'm not sure I understand. Try asking about feeding, health, grooming, or training?",
+      "Hmm, that's not something I know about yet. Can you try asking in a different way?",
+      "I don't have that information. Would you like to know about dog feeding, grooming, training, or health?",
+      "I'm still learning! Try asking about specific dog care topics like food, exercise, or grooming.",
+      "Woof! I didn't quite catch that. Try asking more specifically about dog care topics."
+    ]
+  },
+  "feeding": {
+    "overview": "Proper nutrition is essential for your dog's health. The right food, portion size, and feeding schedule depend on your dog's age, size, breed, and activity level.",
+    "puppy_feeding": "Puppies need to eat 3-4 times per day. Feed high-quality puppy food and follow the package guidelines, adjusting as needed based on your puppy's growth and veterinarian recommendations.",
+    "adult_feeding": "Most adult dogs should be fed twice daily. The amount depends on size, activity level, and metabolism. Check the food packaging for guidelines or ask your vet for specific recommendations.",
+    "senior_feeding": "Senior dogs often need fewer calories but more protein and certain nutrients. Consider senior-specific food and smaller, more frequent meals if needed.",
+    "portion_sizes": "Portion sizes vary based on your dog's size, activity level, and the specific food. Use the guidelines on the food packaging as a starting point, and adjust based on your dog's weight and body condition.",
+    "treats": "Treats should make up no more than 10% of your dog's daily caloric intake. Choose healthy options and avoid human foods that are toxic to dogs.",
+    "food_allergies": "Common food allergens for dogs include beef, dairy, wheat, chicken, and eggs. Signs of food allergies include itching, ear infections, gastrointestinal issues, and paw licking.",
+    "toxic_foods": "Foods toxic to dogs include chocolate, grapes/raisins, onions, garlic, xylitol (in sugar-free products), alcohol, caffeine, macadamia nuts, and avocados. Keep these away from your dog at all times.",
+    "water_needs": "Dogs should always have access to fresh, clean water. They typically need about an ounce of water per pound of body weight daily, though this increases with activity, heat, and certain health conditions."
+  },
+  "grooming": {
+    "overview": "Regular grooming keeps your dog healthy and comfortable. It includes brushing, bathing, nail trimming, ear cleaning, and dental care.",
+    "brushing": "Brushing removes loose fur, prevents mats, and distributes skin oils. Short-haired dogs need brushing weekly, while long-haired dogs often need daily brushing.",
+    "bathing": "Most dogs need baths every 1-3 months, though this varies by breed and lifestyle. Use dog-specific shampoo, as human products can irritate their skin.",
+    "nail_care": "Trim your dog's nails every 3-4 weeks. If you hear clicking on hard floors, they're too long. Be careful not to cut the quick (blood vessel in the nail).",
+    "ear_cleaning": "Check and clean your dog's ears weekly, especially for floppy-eared breeds. Use a vet-approved ear cleaner and never insert anything into the ear canal.",
+    "dental_care": "Brush your dog's teeth daily if possible, or at least several times a week. Dental chews, toys, and professional cleanings can also help prevent dental disease.",
+    "eye_care": "Wipe away eye discharge with a damp cloth. Some breeds prone to tear staining may need more frequent cleaning. Any redness, swelling, or unusual discharge warrants a vet visit.",
+    "paw_care": "Check paws regularly for injuries, foreign objects, or dry/cracked pads. In winter, wipe paws after walks to remove salt and chemicals. In summer, avoid hot pavement."
+  },
+  "health": {
+    "overview": "Preventative care is key to your dog's health. This includes regular vet visits, vaccinations, parasite prevention, and watching for signs of illness.",
+    "vaccinations": "Core vaccines for dogs include rabies, distemper, parvovirus, and adenovirus. Your vet may recommend others based on your dog's lifestyle and local disease risks.",
+    "parasite_prevention": "Dogs need year-round prevention for heartworms, fleas, and ticks. Your vet can recommend the best products for your location and dog's specific needs.",
+    "spay_neuter": "Spaying/neutering provides health benefits including reduced risk of certain cancers and behavioral benefits. Most dogs are spayed/neutered around 6 months of age, though timing can vary.",
+    "common_illnesses": "Common dog health issues include ear infections, skin problems, dental disease, obesity, arthritis, allergies, and gastrointestinal problems. Know the signs and see your vet promptly if concerned.",
+    "senior_care": "Senior dogs (typically 7+ years for larger breeds, 10+ for smaller breeds) need more frequent vet care. Watch for arthritis, dental issues, vision/hearing loss, and cognitive changes.",
+    "weight_management": "Over 50% of dogs are overweight or obese, which increases risk for many health problems. Maintain healthy weight through proper diet and regular exercise.",
+    "when_to_see_vet": "See your vet immediately if your dog shows these signs: difficulty breathing, collapse, inability to urinate, severe pain, prolonged vomiting/diarrhea, bloated abdomen, or seizures."
+  },
+  "training": {
+    "overview": "Consistent, positive reinforcement training strengthens the bond with your dog and creates a well-behaved companion. Start training early, keep sessions short and fun, and always end on a positive note.",
+    "puppy_basics": "Start training puppies as soon as you bring them home. Focus on socialization, potty training, bite inhibition, and simple commands like 'sit'. Keep sessions short (5 minutes) and fun.",
+    "house_training": "Establish a regular schedule for feeding, potty breaks, and crate time. Take puppies out after sleeping, eating, and playing. Reward success immediately and never punish accidents.",
+    "crate_training": "A crate should be a safe, comfortable space. Introduce it gradually with treats and positive associations. Never use it for punishment. Size should allow standing, turning, and lying down.",
+    "basic_commands": "Essential commands include: sit, stay, come, down, and leave it. Use consistent verbal cues and hand signals. Reward correct responses immediately.",
+    "leash_training": "Start in a quiet area with a properly fitted collar or harness. Reward walking beside you without pulling. Practice daily, gradually increasing distractions.",
+    "socialization": "Expose puppies to various people, animals, environments, and situations during their critical socialization period (3-14 weeks). Make experiences positive with treats and praise.",
+    "behavior_problems": "Common issues include barking, chewing, jumping, and aggression. Address underlying causes (boredom, anxiety, etc.) rather than just the symptoms. Consult a professional trainer for serious problems."
+  },
+  "exercise": {
+    "overview": "Regular exercise is crucial for your dog's physical and mental health. Exercise needs vary by breed, age, and individual dog.",
+    "puppies": "Puppies need short, frequent play sessions rather than endurance exercise. As a guideline, 5 minutes of formal exercise per month of age, twice daily. Too much exercise can damage developing joints.",
+    "adult_dogs": "Most adult dogs need 30-60 minutes of activity daily, though working and sporting breeds often need 1-2 hours. Mix walks with play, training, and mental stimulation.",
+    "senior_dogs": "Senior dogs still need regular exercise, but may prefer shorter, gentler activities. Swimming and short walks are often good options. Watch for signs of pain or fatigue.",
+    "breed_needs": "High-energy breeds (Border Collies, Labs, Terriers) need more intense exercise. Brachycephalic (flat-faced) breeds like Bulldogs need careful exercise to avoid breathing difficulties.",
+    "mental_stimulation": "Mental exercise is as important as physical. Use puzzle toys, training sessions, scent games, and new experiences to keep your dog mentally engaged.",
+    "weather_concerns": "In hot weather, exercise during cooler morning/evening hours and watch for overheating. In cold weather, shorter dogs and those with thin coats may need protection.",
+    "exercise_games": "Great games include fetch, tug (with rules), hide and seek, agility courses, and scent work. Rotate activities to keep your dog engaged and prevent repetitive strain injuries."
+  },
+  "breeds": {
+    "labrador": "Labs are friendly, outgoing, high-energy dogs that need plenty of exercise. They're generally good with children and other pets, making them popular family dogs. They need regular grooming to manage shedding and are prone to obesity if overfed.",
+    "german_shepherd": "German Shepherds are intelligent, loyal working dogs. They need extensive socialization, training, and mental/physical exercise. They're protective of family and may be reserved with strangers. They shed heavily and are prone to hip dysplasia.",
+    "golden_retriever": "Golden Retrievers are friendly, intelligent dogs with a gentle temperament. They're excellent family pets who need regular exercise and grooming. They're eager to please and respond well to training. They're prone to certain cancers and hip problems.",
+    "beagle": "Beagles are friendly, curious dogs originally bred for hunting. They have a strong sense of smell and may follow scents despite training. They're good with families but can be vocal and stubborn. They need regular exercise to prevent weight gain.",
+    "poodle": "Poodles are highly intelligent, active dogs that come in three sizes (standard, miniature, toy). They have hypoallergenic coats that require regular professional grooming. They excel in training and dog sports and are prone to certain genetic health issues.",
+    "bulldog": "Bulldogs are gentle, laid-back dogs that don't require extensive exercise. Their flat faces make them prone to breathing difficulties, especially in heat. They need regular cleaning of facial folds to prevent infections. They're generally good with children but can be stubborn.",
+    "chihuahua": "Chihuahuas are tiny dogs with big personalities. They form strong bonds with their owners but can be reserved or snippy with strangers or children. They need minimal exercise but benefit from dental care, as they're prone to dental issues.",
+    "shih_tzu": "Shih Tzus are friendly, outgoing companion dogs. Their long coat requires daily brushing or regular professional grooming if kept short. They're generally good with children and other pets. They don't need extensive exercise but do enjoy short walks and playtime."
+  },
+  "emergency": {
+    "general_advice": "If you suspect your dog is having a medical emergency, contact your veterinarian or nearest emergency vet clinic immediately. Time is critical in emergencies. While getting help, try to keep your dog calm and comfortable, but don't delay seeking professional care.",
+    "poisoning": "If you suspect your dog has ingested something toxic, contact the Pet Poison Helpline (855-764-7661) or ASPCA Animal Poison Control Center (888-426-4435) immediately. Have the packaging or substance available when you call.",
+    "choking": "If your dog is choking but can still breathe, let them try to cough it out. If they can't breathe, perform the Heimlich maneuver: for small dogs, hold them with their back against your chest and apply quick pressure just behind the ribcage; for large dogs, place your hands below the ribcage and apply upward pressure.",
+    "bleeding": "For external bleeding, apply direct pressure with a clean cloth. For severe bleeding, apply pressure and seek immediate veterinary care. Elevate the wound if possible.",
+    "seizures": "If your dog is having a seizure, don't try to restrain them. Move furniture away to prevent injury. Time the seizure - those lasting more than 3 minutes or multiple seizures without regaining consciousness require immediate emergency care.",
+    "heatstroke": "Signs include excessive panting, drooling, reddened gums, vomiting, diarrhea, and collapse. Move your dog to a cool area, wet their coat with room temperature water (not ice), provide air flow, and seek immediate veterinary care.",
+    "trauma": "If your dog experiences trauma (hit by car, fall, etc.), minimize movement to prevent worsening injuries. Transport on a flat surface if possible and seek immediate veterinary care.",
+    "difficulty_breathing": "If your dog is struggling to breathe (excessive panting, extended neck, blue gums), this is a life-threatening emergency requiring immediate veterinary care. Keep your dog calm and use minimal restraint during transport."
+  }
+}
