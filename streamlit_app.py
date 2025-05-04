@@ -6,7 +6,7 @@ from chatbot import DogCareBot
 api_key = os.getenv("sk-b7bfd329441041b89a37d7b8732e7194")
 
 # Initialize the chatbot
-bot = DogCareBot(api_key=api_key)
+bot = DogCareBot(api_key="sk-b7bfd329441041b89a37d7b8732e7194")
 
 # Set page config
 st.set_page_config(
