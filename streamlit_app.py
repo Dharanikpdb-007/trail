@@ -1,8 +1,12 @@
 import streamlit as st
+import os
 from chatbot import DogCareBot
 
+# Set your API key (you should set this in environment variables)
+api_key = os.getenv("sk-b7bfd329441041b89a37d7b8732e7194")
+
 # Initialize the chatbot
-bot = DogCareBot()
+bot = DogCareBot(api_key=api_key)
 
 # Set page config
 st.set_page_config(
