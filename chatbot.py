@@ -1,18 +1,16 @@
-import openai
+from openai import OpenAI
 
 class DogCareBot:
     def __init__(self, api_key):
-        """Initialize the chatbot with OpenAI."""
-        openai.api_key = api_key
+        self.client = OpenAI(api_key=api_key)
         self.conversation_history = []
 
     def process_query(self, query):
-        """Use OpenAI API to get a response for a query."""
         self.conversation_history.append({"role": "user", "content": query})
 
         try:
-            response = openai.ChatCompletion.create(
-                model="gpt-4",  # You can change to "gpt-3.5-turbo" if needed
+            response = self.client.chat.completions.create(
+                model="gpt-4",
                 messages=[
                     {"role": "system", "content": (
                         "You are a helpful and friendly dog care assistant. "
@@ -23,7 +21,7 @@ class DogCareBot:
                 temperature=0.7,
                 max_tokens=500
             )
-            reply = response.choices[0].message['content'].strip()
+            reply = response.choices[0].message.content.strip()
             self.conversation_history.append({"role": "assistant", "content": reply})
             return reply
 
