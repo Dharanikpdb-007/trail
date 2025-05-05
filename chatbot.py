@@ -10,7 +10,7 @@ class DogCareBot:
 
         try:
             response = self.client.chat.completions.create(
-                model="gpt-4",
+                model="gpt-3.5-turbo",
                 messages=[
                     {"role": "system", "content": (
                         "You are a helpful and friendly dog care assistant. "
