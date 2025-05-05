@@ -11,7 +11,7 @@ bot = DogCareBot(api_key)
 # Set page config
 st.set_page_config(
     page_title="Dog Pet Care Assistant",
-    page_icon="🐕",
+    page_icon="🐶",
     layout="wide"
 )
 
