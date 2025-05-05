@@ -1,2 +1,4 @@
 utils
 streamlit==1.32.0
+streamlit
+openai
