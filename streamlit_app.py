@@ -1,9 +1,10 @@
 import streamlit as st
 import os
 from chatbot import DogCareBot
-
-# Use your API key safely (from environment variable ideally)
-api_key = os.getenv("sk-b7bfd329441041b89a37d7b8732e7194")
+api_key = os.getenv("OPENAI_API_KEY")
+if not api_key:
+    st.error("OpenAI API key not found. Please set the OPENAI_API_KEY environment variable.")
+    st.stop()
 bot = DogCareBot(api_key)
 
 
