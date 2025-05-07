@@ -1,26 +1,23 @@
 import streamlit as st
-import os
 from chatbot import DogCareBot
-api_key = os.getenv("OPENAI_API_KEY")
-if not api_key:
-    st.error("OpenAI API key not found. Please set the OPENAI_API_KEY environment variable.")
-    st.stop()
-bot = DogCareBot(api_key)
 
+# Initialize the chatbot
+bot = DogCareBot()
 
 # Set page config
 st.set_page_config(
     page_title="Dog Pet Care Assistant",
-    page_icon="🐶",
+    page_icon="🐕",
     layout="wide"
 )
 
-# Custom CSS
+# Custom CSS - ONLY center the main area, not the whole app
 st.markdown("""
     <style>
-    .stApp {
+    .main {
         max-width: 800px;
-        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
     }
     </style>
 """, unsafe_allow_html=True)
